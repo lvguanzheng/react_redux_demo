@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { TEST_START_REQUEST } from '../actions/Index'
-import styles from './tableList.less'
+// import styles from './tableList.less'
 
 class TableList extends React.Component {
     constructor(props) {
@@ -41,7 +41,7 @@ class TableList extends React.Component {
         console.log('table list props -->', this.props)
         return (
             <div>
-                <input className={styles['demo-input']} onChange={this.valChange} />
+                <input onChange={this.valChange} />
                 <span>{inputData}</span>
             </div>
         )
