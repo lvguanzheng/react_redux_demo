@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware } from 'redux'
 import createSagaMiddleware from 'redux-saga'
-import "babel-polyfill"
+import 'babel-polyfill'
 
 import reducers from './reducers/Index'
 import rootSaga from './sagas/Index'
